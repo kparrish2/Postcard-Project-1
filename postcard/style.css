@@ -1,0 +1,57 @@
+body{
+	background: #171717; 
+	 font-size: 18px;
+}
+.postcard{
+	background: white; 
+	width:500px; 
+	height: 360px;
+	margin:200px auto;
+	padding:15px;
+	font-family: 'Permanent Marker', cursive;
+}
+.postcard-header{
+	overflow: hidden
+}
+.postcard-header img{
+	max-width: 80px; 
+	float: right;
+}
+.postcard-body{
+	overflow: hidden;
+}
+input{
+	font-size: 18px;
+	font-family: 'Permanent Marker', cursive;
+}
+.left-section{
+	float: left; 
+	width:50%;
+}
+.right-section{
+	float: right;
+	width:50%;
+}
+.right-section input{
+	display:block;
+}
+h1{
+	font-size: 35px;
+	margin: 0;
+}
+.postcard-footer{
+	padding: 10px; 
+	text-align: center;
+}
+.postcard-footer input[type=submit]{
+	border: none; 
+	border-bottom:1px solid gray;
+}
+.postcard-body input[type=text]{
+	border: none; 
+	border-bottom:1px solid gray; 
+	width: 240px; 
+	margin-bottom: 5px; 
+	padding: 5px; 
+	text-align: center;
+}
